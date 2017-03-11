@@ -1,12 +1,12 @@
 #include "area.h"
 #include <cmath>
 
-double AreaTriangulo(double base, double altura) {
-  return ((base * altura) / 2);
+double AreaTriangulo(double lado) {
+  return (pow(lado, 2) * sqrt(3) / 4);
 }
 
-double AreaRetangulo(double base, double altura) {
-  return (base * altura);
+double AreaRetangulo(double lado1, double lado2) {
+  return (lado1 * lado2);
 }
 
 double AreaQuadrado(double lado) {

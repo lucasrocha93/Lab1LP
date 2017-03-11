@@ -3,8 +3,8 @@
 
 const double kPi = 3.141592653589793238463;
 
-double AreaTriangulo(double base, double altura);
-double AreaRetangulo(double base, double altura);
+double AreaTriangulo(double lado);
+double AreaRetangulo(double lado1, double lado2);
 double AreaQuadrado(double lado);
 double AreaCirculo(double raio);
 double AreaPiramide(double lado_base, double altura);

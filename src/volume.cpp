@@ -1,10 +1,10 @@
 /**
-* @file volume.cpp
-* @brief Implementação das funções que calculam o volume de figuras geométricas.
-* @author Lucas Rocha de Azevedo Santos
-* @since 12/03/2017
-* @date 12/03/2017
-*/
+ * @file volume.cpp
+ * @brief Implementação das funções que calculam o volume de figuras geométricas.
+ * @author Lucas Rocha de Azevedo Santos
+ * @since 12/03/2017
+ * @date 12/03/2017
+ */
 
 #include "volume.h"
 #include <cmath>

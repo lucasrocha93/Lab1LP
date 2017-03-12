@@ -1,10 +1,10 @@
 /**
-* @file perimetro.cpp
-* @brief Implementação das funções que calculam o perímetro de figuras geométricas.
-* @author Lucas Rocha de Azevedo Santos
-* @since 11/03/2017
-* @date 12/03/2017
-*/
+ * @file perimetro.cpp
+ * @brief Implementação das funções que calculam o perímetro de figuras geométricas.
+ * @author Lucas Rocha de Azevedo Santos
+ * @since 11/03/2017
+ * @date 12/03/2017
+ */
 
 #include "perimetro.h"
 

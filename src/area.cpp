@@ -1,10 +1,10 @@
 /**
-* @file area.cpp
-* @brief Implementação das funções que calculam a área de figuras geométricas.
-* @author Lucas Rocha de Azevedo Santos
-* @since 11/03/2017
-* @date 12/03/2017
-*/
+ * @file area.cpp
+ * @brief Implementação das funções que calculam a área de figuras geométricas.
+ * @author Lucas Rocha de Azevedo Santos
+ * @since 11/03/2017
+ * @date 12/03/2017
+ */
 
 #include "area.h"
 #include <cmath>

@@ -45,5 +45,5 @@ double VolumeParalelepipedo(double aresta1, double aresta2, double aresta3) {
  * @return Volume da esfera.
  */
 double VolumeEsfera(double raio) {
-  return ((4 * kPi * pow(raio, 3)) / 3);
+  return ((4 * kVPi * pow(raio, 3)) / 3);
 }

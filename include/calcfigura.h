@@ -5,6 +5,6 @@
 #include "perimetro.h"
 #include "volume.h"
 
-void CalculoFigura(char opcao);
+void CalculoFigura(unsigned int opcao);
 
 #endif // CALCFIGURA_H

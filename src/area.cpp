@@ -43,7 +43,7 @@ double AreaQuadrado(double lado) {
  * @return Área do círculo.
  */
 double AreaCirculo(double raio) {
-  return (kPi * pow(raio, 2));
+  return (kAPi * pow(raio, 2));
 }
 
 /**
@@ -82,5 +82,5 @@ double AreaParalelepipedo(double aresta1, double aresta2, double aresta3) {
  * @return Área da esfera.
  */
 double AreaEsfera(double raio) {
-  return (4 * kPi * pow(raio, 2));
+  return (4 * kAPi * pow(raio, 2));
 }

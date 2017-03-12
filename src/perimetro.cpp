@@ -42,5 +42,5 @@ double PerimetroQuadrado(double lado) {
  * @return Perímetro do círculo.
  */
 double PerimetroCirculo(double raio) {
-  return (2 * kPi * raio);
+  return (2 * kPPi * raio);
 }

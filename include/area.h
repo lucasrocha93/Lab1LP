@@ -1,7 +1,7 @@
 #ifndef AREA_H
 #define AREA_H
 
-const double kPi = 3.141592653589793238463;
+const double kAPi = 3.141592653589793238463;
 
 double AreaTriangulo(double lado);
 double AreaRetangulo(double lado1, double lado2);

@@ -16,7 +16,7 @@ using std::endl;
  * @brief Função que recebe os dados necessários, chama as funções de cálculo e mostra os resultados.
  * @param[in] opcao Escolha da figura geométrica para os cálculos.
  */
-void CalculoFigura(char opcao) {
+void CalculoFigura(unsigned int opcao) {
   switch (opcao) {
     case 1: { // Triângulo Equilátero
       double lado;

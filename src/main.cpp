@@ -1,3 +1,11 @@
+/**
+ * @file main.cpp
+ * @brief Implementação da função principal do programa.
+ * @author Lucas Rocha de Azevedo Santos
+ * @since 12/03/2017
+ * @date 12/03/2017
+ */
+
 #include "calcfigura.h"
 #include <iostream>
 using std::cin;
@@ -5,7 +13,7 @@ using std::cout;
 using std::endl;
 
 int main() {
-  char opcao;
+  unsigned int opcao;
 
   cout << "Calculadora Geometrica Plana e Espacial" << endl
        << "(1) Triangulo equilatero" << endl
@@ -19,13 +27,13 @@ int main() {
        << "(0) Sair" << endl
        << endl;
 
-  cout << "Digite sua opcao: "
+  cout << "Digite sua opcao: ";
   cin >> opcao;
 
   while (opcao != 0) {
     CalculoFigura(opcao);
     cout << endl;
-    cout << "Digite outra opcao: "
+    cout << "Digite outra opcao: ";
     cin >> opcao;
   }
 

@@ -1,7 +1,7 @@
 #ifndef VOLUME_H
 #define VOLUME_H
 
-const double kPi = 3.141592653589793238463;
+const double kVPi = 3.141592653589793238463;
 
 double VolumePiramide(double lado_base, double altura);
 double VolumeCubo(double aresta);

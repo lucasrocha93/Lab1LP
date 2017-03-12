@@ -1,5 +1,5 @@
 # Comandos do sistema operacional (Windows).
-RM = cmd //C del
+RM = rm -rf
 
 # Compilador.
 CC=g++
@@ -11,7 +11,6 @@ SRC_DIR=./src
 OBJ_DIR=./build
 BIN_DIR=./bin
 DOC_DIR=./doc
-TEST_DIR=./test
 
 # Opções de compilação.
 CFLAGS = -Wall -pedantic -ansi -std=c++11 -I. -I$(INC_DIR)
@@ -34,7 +33,7 @@ geometrica: $(OBJ_DIR)/main.o $(OBJ_DIR)/calcfigura.o $(OBJ_DIR)/area.o $(OBJ_DI
 	@echo "Ligando o alvo $@"
 	@echo "============="
 	$(CC) $(CFLAGS) -o $(BIN_DIR)/$@ $^
-	@echo "+++ [executável geometrica criado em $(BIN_DIR)] +++"
+	@echo "+++ [executavel geometrica criado em $(BIN_DIR)] +++"
 	@echo "============="
 
 # Alvo (target) para a construção do objeto main.o.

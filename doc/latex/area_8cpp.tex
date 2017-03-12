@@ -1,0 +1,197 @@
+\hypertarget{area_8cpp}{}\section{src/area.cpp File Reference}
+\label{area_8cpp}\index{src/area.\+cpp@{src/area.\+cpp}}
+
+
+Implementação das funções que calculam a área de figuras geométricas.  
+
+
+{\ttfamily \#include \char`\"{}area.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{area_8cpp_abf34f8d491ce5e0bd3008ca4e55c4859}{Area\+Triangulo} (double lado)
+\begin{DoxyCompactList}\small\item\em Função que calcula a área de um triângulo equilátero. \end{DoxyCompactList}\item 
+double \hyperlink{area_8cpp_a29b083249b9ff52eb9c00ed2aeb11a44}{Area\+Retangulo} (double lado1, double lado2)
+\begin{DoxyCompactList}\small\item\em Função que calcula a área de um retângulo. \end{DoxyCompactList}\item 
+double \hyperlink{area_8cpp_ad8bc208e75019c63019596077cf7e620}{Area\+Quadrado} (double lado)
+\begin{DoxyCompactList}\small\item\em Função que calcula a área de um quadrado. \end{DoxyCompactList}\item 
+double \hyperlink{area_8cpp_a04a0d0af1f4aa383e5997bbc0423e8ff}{Area\+Circulo} (double raio)
+\begin{DoxyCompactList}\small\item\em Função que calcula a área de um círculo. \end{DoxyCompactList}\item 
+double \hyperlink{area_8cpp_afc4b6d02e5cb9d44a53d6ba37dc2764f}{Area\+Piramide} (double lado\+\_\+base, double altura)
+\begin{DoxyCompactList}\small\item\em Função que calcula a área total de uma pirâmide quadrangular. \end{DoxyCompactList}\item 
+double \hyperlink{area_8cpp_ad157cb66ff2d7dacfa5806eda87c5ff6}{Area\+Cubo} (double aresta)
+\begin{DoxyCompactList}\small\item\em Função que calcula a área total de um cubo. \end{DoxyCompactList}\item 
+double \hyperlink{area_8cpp_a834202e6012c9715e7350809516509fa}{Area\+Paralelepipedo} (double aresta1, double aresta2, double aresta3)
+\begin{DoxyCompactList}\small\item\em Função que calcula a área total de um paralelepípedo. \end{DoxyCompactList}\item 
+double \hyperlink{area_8cpp_ae80fcc0b06205c321a6d2292c6490073}{Area\+Esfera} (double raio)
+\begin{DoxyCompactList}\small\item\em Função que calcula a área de uma esfera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementação das funções que calculam a área de figuras geométricas. 
+
+\begin{DoxyAuthor}{Author}
+Lucas Rocha de Azevedo Santos 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+11/03/2017 
+\end{DoxySince}
+\begin{DoxyDate}{Date}
+12/03/2017 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{area_8cpp_a04a0d0af1f4aa383e5997bbc0423e8ff}\label{area_8cpp_a04a0d0af1f4aa383e5997bbc0423e8ff}} 
+\index{area.\+cpp@{area.\+cpp}!Area\+Circulo@{Area\+Circulo}}
+\index{Area\+Circulo@{Area\+Circulo}!area.\+cpp@{area.\+cpp}}
+\subsubsection{\texorpdfstring{Area\+Circulo()}{AreaCirculo()}}
+{\footnotesize\ttfamily double Area\+Circulo (\begin{DoxyParamCaption}\item[{double}]{raio }\end{DoxyParamCaption})}
+
+
+
+Função que calcula a área de um círculo. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em raio} & Valor do raio do círculo cuja área será calculada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Área do círculo. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{area_8cpp_ad157cb66ff2d7dacfa5806eda87c5ff6}\label{area_8cpp_ad157cb66ff2d7dacfa5806eda87c5ff6}} 
+\index{area.\+cpp@{area.\+cpp}!Area\+Cubo@{Area\+Cubo}}
+\index{Area\+Cubo@{Area\+Cubo}!area.\+cpp@{area.\+cpp}}
+\subsubsection{\texorpdfstring{Area\+Cubo()}{AreaCubo()}}
+{\footnotesize\ttfamily double Area\+Cubo (\begin{DoxyParamCaption}\item[{double}]{aresta }\end{DoxyParamCaption})}
+
+
+
+Função que calcula a área total de um cubo. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em aresta} & Valor da aresta do cubo cuja área total será calculada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Área total do cubo. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{area_8cpp_ae80fcc0b06205c321a6d2292c6490073}\label{area_8cpp_ae80fcc0b06205c321a6d2292c6490073}} 
+\index{area.\+cpp@{area.\+cpp}!Area\+Esfera@{Area\+Esfera}}
+\index{Area\+Esfera@{Area\+Esfera}!area.\+cpp@{area.\+cpp}}
+\subsubsection{\texorpdfstring{Area\+Esfera()}{AreaEsfera()}}
+{\footnotesize\ttfamily double Area\+Esfera (\begin{DoxyParamCaption}\item[{double}]{raio }\end{DoxyParamCaption})}
+
+
+
+Função que calcula a área de uma esfera. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em raio} & Valor do raio da esfera cuja área será calculada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Área da esfera. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{area_8cpp_a834202e6012c9715e7350809516509fa}\label{area_8cpp_a834202e6012c9715e7350809516509fa}} 
+\index{area.\+cpp@{area.\+cpp}!Area\+Paralelepipedo@{Area\+Paralelepipedo}}
+\index{Area\+Paralelepipedo@{Area\+Paralelepipedo}!area.\+cpp@{area.\+cpp}}
+\subsubsection{\texorpdfstring{Area\+Paralelepipedo()}{AreaParalelepipedo()}}
+{\footnotesize\ttfamily double Area\+Paralelepipedo (\begin{DoxyParamCaption}\item[{double}]{aresta1,  }\item[{double}]{aresta2,  }\item[{double}]{aresta3 }\end{DoxyParamCaption})}
+
+
+
+Função que calcula a área total de um paralelepípedo. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em aresta1} & Valor da primeira aresta do paralelepípedo cuja área total será calculada. \\
+\hline
+\mbox{\tt in}  & {\em aresta2} & Valor da segunda aresta do paralelepípedo cuja área total será calculada. \\
+\hline
+\mbox{\tt in}  & {\em aresta3} & Valor da terceira aresta do paralelepípedo cuja área total será calculada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Área total do paralelepípedo. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{area_8cpp_afc4b6d02e5cb9d44a53d6ba37dc2764f}\label{area_8cpp_afc4b6d02e5cb9d44a53d6ba37dc2764f}} 
+\index{area.\+cpp@{area.\+cpp}!Area\+Piramide@{Area\+Piramide}}
+\index{Area\+Piramide@{Area\+Piramide}!area.\+cpp@{area.\+cpp}}
+\subsubsection{\texorpdfstring{Area\+Piramide()}{AreaPiramide()}}
+{\footnotesize\ttfamily double Area\+Piramide (\begin{DoxyParamCaption}\item[{double}]{lado\+\_\+base,  }\item[{double}]{altura }\end{DoxyParamCaption})}
+
+
+
+Função que calcula a área total de uma pirâmide quadrangular. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em lado\+\_\+base} & Valor do lado da base da pirâmide cuja área total será calculada. \\
+\hline
+\mbox{\tt in}  & {\em altura} & Valor da altura da pirâmide cuja área total será calculada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Área total da pirâmide quadrangular. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{area_8cpp_ad8bc208e75019c63019596077cf7e620}\label{area_8cpp_ad8bc208e75019c63019596077cf7e620}} 
+\index{area.\+cpp@{area.\+cpp}!Area\+Quadrado@{Area\+Quadrado}}
+\index{Area\+Quadrado@{Area\+Quadrado}!area.\+cpp@{area.\+cpp}}
+\subsubsection{\texorpdfstring{Area\+Quadrado()}{AreaQuadrado()}}
+{\footnotesize\ttfamily double Area\+Quadrado (\begin{DoxyParamCaption}\item[{double}]{lado }\end{DoxyParamCaption})}
+
+
+
+Função que calcula a área de um quadrado. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em lado} & Valor do lado do quadrado cuja área será calculada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Área do quadrado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{area_8cpp_a29b083249b9ff52eb9c00ed2aeb11a44}\label{area_8cpp_a29b083249b9ff52eb9c00ed2aeb11a44}} 
+\index{area.\+cpp@{area.\+cpp}!Area\+Retangulo@{Area\+Retangulo}}
+\index{Area\+Retangulo@{Area\+Retangulo}!area.\+cpp@{area.\+cpp}}
+\subsubsection{\texorpdfstring{Area\+Retangulo()}{AreaRetangulo()}}
+{\footnotesize\ttfamily double Area\+Retangulo (\begin{DoxyParamCaption}\item[{double}]{lado1,  }\item[{double}]{lado2 }\end{DoxyParamCaption})}
+
+
+
+Função que calcula a área de um retângulo. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em lado1} & Valor do primeiro lado do retângulo cuja área será calculada. \\
+\hline
+\mbox{\tt in}  & {\em lado2} & Valor do segundo lado do retângulo cuja área será calculada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Área do retângulo. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{area_8cpp_abf34f8d491ce5e0bd3008ca4e55c4859}\label{area_8cpp_abf34f8d491ce5e0bd3008ca4e55c4859}} 
+\index{area.\+cpp@{area.\+cpp}!Area\+Triangulo@{Area\+Triangulo}}
+\index{Area\+Triangulo@{Area\+Triangulo}!area.\+cpp@{area.\+cpp}}
+\subsubsection{\texorpdfstring{Area\+Triangulo()}{AreaTriangulo()}}
+{\footnotesize\ttfamily double Area\+Triangulo (\begin{DoxyParamCaption}\item[{double}]{lado }\end{DoxyParamCaption})}
+
+
+
+Função que calcula a área de um triângulo equilátero. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em lado} & Valor do lado do triângulo equilátero cuja área será calculada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Área do triângulo equilátero. 
+\end{DoxyReturn}

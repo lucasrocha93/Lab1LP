@@ -12,4 +12,4 @@ double AreaCubo(double aresta);
 double AreaParalelepipedo(double aresta1, double aresta2, double aresta3);
 double AreaEsfera(double raio);
 
-#endif
+#endif // AREA_H

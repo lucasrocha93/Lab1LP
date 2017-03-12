@@ -8,4 +8,4 @@ double PerimetroRetangulo(double lado1, double lado2);
 double PerimetroQuadrado(double lado);
 double PerimetroCirculo(double raio);
 
-#endif
+#endif // PERIMETRO_H
